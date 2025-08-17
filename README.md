@@ -24,6 +24,10 @@ yield even greater gains with stronger LLMs.
 
 ## 🚀 Getting Started
 
+Install Ollama client
+Install deepseek-re:1.5b model
+Install BAAI/EVA-CLIP-8B
+
 ```bash
 download files from https://drive.google.com/drive/folders/1ZNty_n_8Jp8lObudbckkObHnYCvakgvY?usp=sharing
 python main.py
