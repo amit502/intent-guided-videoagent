@@ -346,7 +346,7 @@ def run_one_question(video_id, ann, caps, logs):
     num_frames = len(caps)
 
     ### Step 1 ###
-    sample_idx = np.linspace(1, num_frames, num=180, dtype=int).tolist()
+    sample_idx = np.linspace(1, num_frames, num=4, dtype=int).tolist()
     ### Semantic intent-guided sampling ###
     initial_question_description = []
     for i, ans in enumerate(answers):
